@@ -1,12 +1,14 @@
 from flask import Flask, render_template, request
 import numpy as np
 import joblib
+import os
 
 app = Flask(__name__)
 
 # Load trained model and encoders
-model = joblib.load("model building/model.pkl")
-encoders = joblib.load("model building/encoders.pkl")
+model_dir = os.path.join(os.path.dirname(__file__), "..", "Model Building")
+model = joblib.load(os.path.join(model_dir, "model.pkl"))
+encoders = joblib.load(os.path.join(model_dir, "encoders.pkl"))
 
 @app.route("/")
 def home():
