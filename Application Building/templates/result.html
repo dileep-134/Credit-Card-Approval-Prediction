@@ -15,19 +15,26 @@
 
         <h1>Credit Card Approval Prediction</h1>
 
-        {% if "Approved" in prediction %}
+        {% if error_message %}
 
-        <div class="success-box">
-            <h2>✅ {{ prediction }}</h2>
-            <h3>Confidence: {{ confidence }}%</h3>
-        </div>
+            <div class="error-box">
+                <h2>⚠️ Error</h2>
+                <p>{{ error_message }}</p>
+            </div>
+
+        {% elif "Approved" in prediction %}
+
+            <div class="success-box">
+                <h2>{{ prediction }}</h2>
+                <h3>Confidence: {{ confidence }}%</h3>
+            </div>
 
         {% else %}
 
-        <div class="reject-box">
-            <h2>❌ {{ prediction }}</h2>
-            <h3>Confidence: {{ confidence }}%</h3>
-        </div>
+            <div class="reject-box">
+                <h2>{{ prediction }}</h2>
+                <h3>Confidence: {{ confidence }}%</h3>
+            </div>
 
         {% endif %}
 
