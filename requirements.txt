@@ -7,3 +7,5 @@ jupyter
 ipython
 scipy
 plotly
+flask
+joblib
