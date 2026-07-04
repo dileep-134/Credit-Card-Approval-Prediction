@@ -16,25 +16,26 @@ def load_model_and_encoders():
     """Load model and encoders with proper error handling"""
     try:
         # Use absolute path for model files
-       model_dir = Path(__file__).parent / "Model Building"
+        model_dir = Path(__file__).parent.parent / "Model Building"
+
         model_path = model_dir / "model.pkl"
         encoders_path = model_dir / "encoders.pkl"
-        
+
         if not model_path.exists():
             raise FileNotFoundError(f"Model file not found: {model_path}")
+
         if not encoders_path.exists():
             raise FileNotFoundError(f"Encoders file not found: {encoders_path}")
-        
+
         model = joblib.load(model_path)
         encoders = joblib.load(encoders_path)
-        
+
         logger.info("Model and encoders loaded successfully")
         return model, encoders
-    
+
     except Exception as e:
         logger.error(f"Error loading model: {e}")
         raise
-
 # Load model and encoders on startup
 try:
     model, encoders = load_model_and_encoders()
