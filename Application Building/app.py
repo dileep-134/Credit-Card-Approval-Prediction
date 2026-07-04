@@ -16,8 +16,7 @@ def load_model_and_encoders():
     """Load model and encoders with proper error handling"""
     try:
         # Use absolute path for model files
-        model_dir = Path(__file__).parent.parent / "Model Building"
-        
+       model_dir = Path(__file__).parent / "Model Building"
         model_path = model_dir / "model.pkl"
         encoders_path = model_dir / "encoders.pkl"
         
