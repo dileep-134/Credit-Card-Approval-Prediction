@@ -179,9 +179,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
-
-## Authors
+## 👤 Authors
 
 - **Baipothu Dileep** – Team Lead
 - **Rajasri Kadali** – Member
