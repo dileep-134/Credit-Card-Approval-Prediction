@@ -1,7 +1,9 @@
 # Credit Card Approval Prediction
 
 A machine learning project that predicts credit card approval using various classification models with a Flask web application interface.
+## Live Demo
 
+🌐 **Live Application:https://credit-card-approval-prediction-e4b5.onrender.com
 ## 📋 Project Overview
 
 This project analyzes credit card applications and predicts whether a card will be approved or rejected based on applicant information. It uses multiple machine learning models including Logistic Regression, Decision Trees, and Random Forests.
