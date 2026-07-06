@@ -35,55 +35,6 @@ Credit-Card-Approval-Prediction/
 └── README.md                       # This file
 ```
 
-## 🔧 Installation
-
-### Prerequisites
-- Python 3.7 or higher
-- pip (Python package manager)
-
-### Setup Instructions
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/dileep-134/Credit-Card-Approval-Prediction.git
-cd Credit-Card-Approval-Prediction
-```
-
-2. **Create a virtual environment (optional but recommended):**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-## 🚀 Running the Application
-
-### Start the Flask Server:
-```bash
-cd "Application Building"
-python app.py
-```
-
-The application will be available at `http://localhost:5000`
-
-### Using the Web Interface:
-1. Navigate to `http://localhost:5000` in your browser
-2. Fill in the applicant details:
-   - Gender (Male/Female)
-   - Age (in days before birth - negative number)
-   - Annual Income
-   - Income Type
-   - Employment Duration (in days)
-   - Marital Status
-   - Number of Children
-   - Education Level
-   - Number of Family Members
-   - Occupation
-3. Click "Predict" to get the approval prediction with confidence score
 
 ## 📊 Models Used
 
