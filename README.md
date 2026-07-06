@@ -228,10 +228,13 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-**Dileep B**
-- GitHub: [@dileep-134](https://github.com/dileep-134)
-- Email: baipothudileep99@gmail.com
+## Authors
 
+- **Baipothu Dileep** – Team Lead
+- **Rajasri Kadali** – Member
+- **Kodi Sahithi** – Member
+- **Chempakayala Tharakesh** – Member
+- **Anjali Vinukonda** – Member
 ## 📚 References
 
 - [Scikit-learn Documentation](https://scikit-learn.org/)
