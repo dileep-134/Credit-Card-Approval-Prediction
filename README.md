@@ -4,7 +4,7 @@ A machine learning project that predicts credit card approval using various clas
 ## Live Demo
 
 🌐 **Live Application:https://credit-card-approval-prediction-e4b5.onrender.com
-## **demo video
+## demo video
 https://drive.google.com/file/d/1s3894XfW55vQdYXyI3jKXffUDlHPgu1D/view?usp=sharing
 ## 📋 Project Overview
 
