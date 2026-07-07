@@ -4,7 +4,8 @@ A machine learning project that predicts credit card approval using various clas
 ## Live Demo
 
 🌐 **Live Application:https://credit-card-approval-prediction-e4b5.onrender.com
-## **demo video**: https://drive.google.com/file/d/1s3894XfW55vQdYXyI3jKXffUDlHPgu1D/view?usp=sharing
+## **demo video
+https://drive.google.com/file/d/1s3894XfW55vQdYXyI3jKXffUDlHPgu1D/view?usp=sharing
 ## 📋 Project Overview
 
 This project analyzes credit card applications and predicts whether a card will be approved or rejected based on applicant information. It uses multiple machine learning models including Logistic Regression, Decision Trees, and Random Forests.
