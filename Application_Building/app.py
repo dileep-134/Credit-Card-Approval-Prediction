@@ -51,7 +51,7 @@ def validate_input(data):
     try:
         age = float(data.get("Age", 0))
         if age > 0 or age < 30000:
-            errors.append("Age must be negative (days before birth)")
+            errors.append("Age must be positive (days before birth)")
     except (ValueError, TypeError):
         errors.append("Age must be a valid number")
     
