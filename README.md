@@ -3,7 +3,7 @@
 A machine learning project that predicts credit card approval using various classification models with a Flask web application interface.
 ## Live Demo
 
-🌐 **Live Application:https://credit-card-approval-prediction-e4b5.onrender.com
+🌐 **Live Application:https://credit-card-approval-prediction-3-ba5w.onrender.com
 ## demo video
 https://drive.google.com/file/d/1s3894XfW55vQdYXyI3jKXffUDlHPgu1D/view?usp=sharing
 ## 📋 Project Overview
